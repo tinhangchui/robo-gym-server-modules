@@ -6,8 +6,18 @@ For info on how to use this package please visit the [robo-gym website](https://
 # Install
 
 ```
-pip install robo-gym-server-modules
+git clone https://github.com/tinhangchui/robo-gym-server-modules.git
+cd robo-gym-server-modules
+pip install -e .
 ```
+
+Add robo-gym-server-modules to $PATH. Please change `<your_username>` before running the following command.
+
+```bash
+printf "\nexport PATH=\"/home/<your_username>/.local/bin:\$PATH\"" >> ~/.bashrc
+
+```
+
 
 # Server Manager
 
